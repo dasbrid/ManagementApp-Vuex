@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>Preferances</h1>
     <p v-if="dataLoaded==false">
-    Loading 
+    Loading. Please wait
     </p>
     <p v-if="dataSaving==true">
     Saving
