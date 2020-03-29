@@ -1,14 +1,25 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Preferences from '../views/Preferences.vue'
+import Tokens from '../views/Tokens.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'tokens',
+    component: Tokens
+  },
+  {
+    path: "/preferences",
+    name: "preferences",
+    component: Preferences
+  },
+  {
+    path: "/tokens",
+    name: "tokens",
+    component: Tokens
   },
   {
     path: '/about',
